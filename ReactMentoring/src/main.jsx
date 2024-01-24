@@ -1,17 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Button from './assets/ModuleLearning/Button.jsx'
-import MainExample from './assets/ModuleLearning/Main.jsx'
-import Counter from './StatesExample/Counter.jsx'
-import ChildParent from './PropsExample/ChildParent.jsx'
-import ParentComponent from './PropsExample/ParentComponent.jsx'
+import ConditionalRendering from './ConditionalRendering/ConditionalRendering'
+import MyList from './ListKeyRendering/ListKeyRendering'
+import KeyRendering from './ListKeyRendering/KeyRendering'
+import CounterToo from './RefrenceExample/RefsExample'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <MainExample/> */}
-    {/* <Counter/> */}
-    
-    <ParentComponent/>
+    <CounterToo/>
+<KeyRendering/>
   </React.StrictMode>,
 )
